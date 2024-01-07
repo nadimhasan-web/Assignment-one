@@ -265,7 +265,7 @@ font-family: 'Inter', sans-serif; */
     margin: 0 auto;
 }
 
-.discount_head p{
+.discount_head .p_one{
     font-size: 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -281,10 +281,41 @@ font-family: 'Inter', sans-serif; */
     text-align: center;
     margin-top: 15px;
 }
-.discount_head .description{
+.discount_head .p_two{
     color: rgba(7, 2, 17, 0.60);
-    font-size: 20px;
+    font-size: 18px;
     font-family: Inter;
     font-weight: 500;
-    line-height: 32px;
+    margin: 0 auto;
+    line-height: 25px;
+    margin-top: 25px;
+    width: 640px;
+    text-align: center;
+}
+.discount_item{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.discount_item .discount_col_one{
+    width: 600px;
+} 
+.discount_col_one img{
+    width: 100%;
+}
+.discount_item .discount_col_two{
+    width: 520px;
+}
+.discount_col_two{
+    position: relative;
+}
+.discount_col_two .women{
+    width: 380px;
+    
+}
+.discount_col_two .fifty{
+    width: 180px; 
+    position: absolute;
+    top: 27%;
+    left: -18%;
 }
