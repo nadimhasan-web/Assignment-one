@@ -19,14 +19,15 @@ font-family: 'Inter', sans-serif; */
 }
 
 #head .header_content {
-    background-image: url('../resources/banner_img.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url('../resources/banner_img.png');
     padding: 190px 0px;
     border-radius: 15px;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+    /* background-color: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%); */
     
 }
+
 .header_content .header_text h3 {
     font-size: 28px;
     font-family: 'Merriweather', serif;
@@ -95,7 +96,7 @@ font-family: 'Inter', sans-serif; */
 }
 
 .party_content {
-    background-image: url('../resources/Vectorrr.png');
+    background-image:  linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%) , url('../resources/Vectorrr.png');
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 15px;
@@ -480,7 +481,7 @@ form .sub_button{
     margin-right: 10px;
 }
 .line{
-    color: rgba(255, 255, 255, 0.202);
+    border: 1px solid rgba(255, 255, 255, 0.15);
 }
 .social_media{
     width: 350px;
