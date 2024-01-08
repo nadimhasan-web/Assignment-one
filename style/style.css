@@ -19,25 +19,14 @@ font-family: 'Inter', sans-serif; */
 }
 
 #head .header_content {
-    background: url('../resources/banner_img.png');
+    background-image: url('../resources/banner_img.png');
     padding: 190px 0px;
     border-radius: 15px;
     background-repeat: no-repeat;
     background-position: center;
-    /* position: relative;
-    z-index: 1; */
+    background-color: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+    
 }
-
-/* #head .header_content::after{
-    content: '';
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
-    z-index: -1;
-    position: absolute;
-} */
 .header_content .header_text h3 {
     font-size: 28px;
     font-family: 'Merriweather', serif;
@@ -114,6 +103,7 @@ font-family: 'Inter', sans-serif; */
     margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
+    /* background-color: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%); */
 }
 
 .party_content .party_text h2 {
@@ -336,3 +326,63 @@ font-family: 'Inter', sans-serif; */
     left: 0;
     z-index: -1;
 }
+/* portfolio section style */
+#portfolio_part{
+    width: 1180px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.portfolio_head .red_text{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #FF0000;
+    text-transform: uppercase;
+}
+.portfolio_head h2{
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    color: #070211;
+    margin: 15px 0px;
+}
+.portfolio_head p{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.60);
+    width: 820px;
+    margin-bottom: 42px;
+}
+.image_row_one{
+    display: flex;
+    justify-content: space-between;
+}
+.image_row_one img{
+    width: 375px;
+}
+.image_row_one .image{
+    transition: all linear .3s;
+    overflow: hidden;
+}
+.image_row_one .image:hover {
+    transform: scale(1.1); 
+}
+.image_row_two{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+.image_row_two img{
+    width: 375px;
+}
+.image_row_two .image{
+    transition: all linear .3s;
+    overflow: hidden;
+}
+.image_row_two .image:hover {
+    transform: scale(1.1); 
+}
+/* .image_row_two:hover img{
+    transform: scale(1.1);
+} */
