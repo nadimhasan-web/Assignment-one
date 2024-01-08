@@ -447,3 +447,63 @@ form .sub_button{
     border-radius: 0px 50px 50px 0px;
     cursor: pointer;
 }
+/* footer section style */
+#footer_part{
+    background: #070211;
+}
+.footer_content{
+    width: 1180px;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+.footer_contract{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.footer_contract .address p{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.footer_contract .contact p{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 5px;
+    display: flex;
+}
+.footer_contract .contact .icon{
+    margin-right: 10px;
+}
+.line{
+    color: rgba(255, 255, 255, 0.202);
+}
+.social_media{
+    width: 350px;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+.social_media img{
+    margin-right: 20px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.copyright .copy_text{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+.copyright .unsubs{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
